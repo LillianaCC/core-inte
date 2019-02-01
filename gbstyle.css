@@ -1,0 +1,1235 @@
+body {
+  /* max-width: 1400px; */
+  padding-top: 100px;
+  text-align: center;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+#goodone img {
+  /* transform: scale(0.1,0.1); */
+  width: 250px;
+  height: 200px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 1.0;
+  filter: hue-rotate(40deg);
+  /* padding-bottom: 30px; */
+}
+
+#goodtwo img {
+  width: 250px;
+  height: 200px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.917;
+  filter: hue-rotate(40deg);
+}
+
+#goodthree img {
+  width: 250px;
+  height: 200px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.834;
+  filter: hue-rotate(40deg);
+}
+
+#goodfour img {
+  width: 250px;
+  height: 200px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.751;
+  filter: hue-rotate(40deg);
+}
+
+#goodfive img {
+  width: 250px;
+  height: 200px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.668;
+  filter: hue-rotate(40deg);
+}
+
+#goodsix img {
+  width: 250px;
+  height: 200px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.585;
+  filter: hue-rotate(40deg);
+}
+
+#badone img {
+  width: 250px;
+  height: 200px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 20px;
+  opacity: 0;
+  filter: hue-rotate(320deg);
+}
+
+#badtwo img {
+  width: 200px;
+  height: 250px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 21px;
+  opacity: 0;
+  filter: hue-rotate(320deg);
+}
+
+#badthree img {
+  width: 250px;
+  height: 200px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 21px;
+  opacity: 0;
+  filter: hue-rotate(320deg);
+}
+
+#badfour img {
+  width: 200px;
+  height: 250px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: -5px;
+  opacity: 0;
+  filter: hue-rotate(320deg);
+}
+
+#badfive img {
+  width: 250px;
+  height: 200px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0;
+  filter: hue-rotate(320deg);
+}
+
+#badsix img {
+  width: 250px;
+  height: 200px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0;
+  filter: hue-rotate(320deg);
+}
+
+opacity: 1.0;
+opacity: 0.917;
+opacity: 0.834;
+opacity: 0.751;
+opacity: 0.668;
+opacity: 0.585;
+opacity: 0.502;
+opacity: 0.419;
+opacity: 0.336;
+opacity: 0.253;
+opacity: 0.17;
+opacity: 0.087;
+
+
+
+/* GOODONE */
+
+#goodoneani img {
+  /* transform: scale(0.1,0.1); */
+  width: 250px;
+  height: 196px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 1.0;
+  position: absolute;
+  top: 110px;
+  left: 517px;
+  opacity: 0.75;
+  filter: hue-rotate(40deg);
+  /* padding-bottom: 30px; */
+}
+
+#goodoneani2 img {
+  /* transform: scale(0.1,0.1); */
+  width: 250px;
+  height: 196px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 1.0;
+  position: absolute;
+  top: 110px;
+  left: 517px;
+  opacity: 0.75;
+  filter: hue-rotate(40deg);
+  /* padding-bottom: 30px; */
+}
+
+#goodoneani3 img {
+  /* transform: scale(0.1,0.1); */
+  width: 250px;
+  height: 196px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 1.0;
+  position: absolute;
+  top: 110px;
+  left: 321px;
+  opacity: 0.5;
+  filter: hue-rotate(40deg);
+  /* padding-bottom: 30px; */
+}
+#goodoneani4 img {
+  /* transform: scale(0.1,0.1); */
+  width: 250px;
+  height: 196px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 1.0;
+  position: absolute;
+  top: 110px;
+  left: 125px;
+  opacity: 0.25;
+  filter: hue-rotate(40deg);
+  /* padding-bottom: 30px; */
+}
+
+#goodoneani2oppo img {
+  /* transform: scale(0.1,0.1); */
+  width: 250px;
+  height: 196px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 1.0;
+  position: absolute;
+  top: 110px;
+  left: 913px;
+  opacity: 0.75;
+  filter: hue-rotate(40deg);
+  /* padding-bottom: 30px; */
+}
+#goodoneani3oppo img {
+  /* transform: scale(0.1,0.1); */
+  width: 250px;
+  height: 196px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 1.0;
+  position: absolute;
+  top: 110px;
+  left: 1109px;
+  opacity: 0.5;
+  filter: hue-rotate(40deg);
+  /* padding-bottom: 30px; */
+}
+#goodoneani4oppo img {
+  /* transform: scale(0.1,0.1); */
+  width: 250px;
+  height: 196px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 1.0;
+  position: absolute;
+  top: 110px;
+  left: 1305px;
+  opacity: 0.25;
+  filter: hue-rotate(40deg);
+  /* padding-bottom: 30px; */
+}
+
+/* GOODTWO */
+
+#goodtwoani2 img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.667;
+  position: absolute;
+  top: 360px;
+  left: 517px;
+  filter: hue-rotate(40deg);
+}
+
+#goodtwoani3 img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.417;
+  position: absolute;
+  top: 360px;
+  left: 321px;
+  filter: hue-rotate(40deg);
+}
+
+#goodtwoani4 img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.287;
+  position: absolute;
+  top: 360px;
+  left: 125px;
+  filter: hue-rotate(40deg);
+}
+
+#goodtwoani2oppo img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.667;
+  position: absolute;
+  top: 360px;
+  left: 913px;
+  filter: hue-rotate(40deg);
+}
+
+#goodtwoani3oppo img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.417;
+  position: absolute;
+  top: 360px;
+  left: 1109px;
+  filter: hue-rotate(40deg);
+}
+
+#goodtwoani4oppo img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.287;
+  position: absolute;
+  top: 360px;
+  left: 1305px;
+  filter: hue-rotate(40deg);
+}
+
+/* GOOD THREE */
+#goodthreeani2 img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.584;
+  position: absolute;
+  top: 610px;
+  left: 517px;
+  filter: hue-rotate(40deg);
+}
+
+#goodthreeani3 img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.334;
+  position: absolute;
+  top: 610px;
+  left: 321px;
+  filter: hue-rotate(40deg);
+}
+
+#goodthreeani4 img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.084;
+  position: absolute;
+  top: 610px;
+  left: 125px;
+  filter: hue-rotate(40deg);
+}
+
+#goodthreeani2oppo img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.584;
+  position: absolute;
+  top: 610px;
+  left: 913px;
+  filter: hue-rotate(40deg);
+}
+
+#goodthreeani3oppo img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.334;
+  position: absolute;
+  top: 610px;
+  left: 1109px;
+  filter: hue-rotate(40deg);
+}
+
+#goodthreeani4oppo img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.084;
+  position: absolute;
+  top: 610px;
+  left: 1305px;
+  filter: hue-rotate(40deg);
+}
+
+/* GOOD FOUR */
+#goodfourani2 img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.501;
+  position: absolute;
+  top: 859px;
+  left: 517px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfourani3 img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.251;
+  position: absolute;
+  top: 859px;
+  left: 321px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfourani4 img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.001;
+  position: absolute;
+  top: 859px;
+  left: 125px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfourani2oppo img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.501;
+  position: absolute;
+  top: 859px;
+  left: 913px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfourani3oppo img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.251;
+  position: absolute;
+  top: 859px;
+  left: 1109px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfourani4oppo img {
+  width: 250px;
+  height: 196px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.001;
+  position: absolute;
+  top: 859px;
+  left: 1305px;
+  filter: hue-rotate(40deg);
+}
+
+/* GOOD FIVE */
+#goodfiveani2 img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.418;
+  position: absolute;
+  top: 1106px;
+  left: 518px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfiveani3 img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.168;
+  position: absolute;
+  top: 1106px;
+  left: 321px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfiveani4 img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0;
+  position: absolute;
+  top: 1106px;
+  left: 125px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfiveani2oppo img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.418;
+  position: absolute;
+  top: 1106px;
+  left: 915px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfiveani3oppo img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.168;
+  position: absolute;
+  top: 1106px;
+  left: 1113px;
+  filter: hue-rotate(40deg);
+}
+
+#goodfiveani4oppo img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0;
+  position: absolute;
+  top: 1106px;
+  left: 1305px;
+  filter: hue-rotate(40deg);
+}
+
+/* GOOD SIX */
+#goodsixani2 img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.168;
+  position: absolute;
+  top: 1353px;
+  left: 518px;
+  filter: hue-rotate(40deg);
+}
+
+#goodsixani3 img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0;
+  position: absolute;
+  top: 1353px;
+  left: 321px;
+  filter: hue-rotate(40deg);
+}
+
+#goodsixani4 img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0;
+  position: absolute;
+  top: 1353px;
+  left: 125px;
+  filter: hue-rotate(40deg);
+}
+
+#goodsixani2oppo img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.168;
+  position: absolute;
+  top: 1353px;
+  left: 915px;
+  filter: hue-rotate(40deg);
+}
+
+#goodsixani3oppo img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0;
+  position: absolute;
+  top: 1353px;
+  left: 1113px;
+  filter: hue-rotate(40deg);
+}
+
+#goodsixani4oppo img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0;
+  position: absolute;
+  top: 1353px;
+  left: 1305px;
+  filter: hue-rotate(40deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BAD ONE */
+#badoneani2 img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.032;
+  position: absolute;
+  top: 1600px;
+  left: 518px;
+  filter: hue-rotate(320deg);
+}
+
+#badoneani3 img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.252;
+  position: absolute;
+  top: 1600px;
+  left: 321px;
+  filter: hue-rotate(320deg);
+}
+
+#badoneani4 img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.502;
+  position: absolute;
+  top: 1600px;
+  left: 125px;
+  filter: hue-rotate(320deg);
+}
+
+#badoneani2oppo img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.032;
+  position: absolute;
+  top: 1600px;
+  left: 915px;
+  filter: hue-rotate(320deg);
+}
+
+#badoneani3oppo img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.252;
+  position: absolute;
+  top: 1600px;
+  left: 1113px;
+  filter: hue-rotate(320deg);
+}
+
+#badoneani4oppo img {
+  width: 247px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.502;
+  position: absolute;
+  top: 1600px;
+  left: 1305px;
+  filter: hue-rotate(320deg);
+}
+
+
+/* BAD TWO */
+#badtwoani2 img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.032;
+  position: absolute;
+  top: 1822px;
+  left: 542px;
+  filter: hue-rotate(320deg);
+}
+
+#badtwoani3 img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.152;
+  position: absolute;
+  top: 1822px;
+  left: 346px;
+  filter: hue-rotate(320deg);
+}
+
+#badtwoani4 img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.419;
+  position: absolute;
+  top: 1822px;
+  left: 150px;
+  filter: hue-rotate(320deg);
+}
+
+#badtwoani2oppo img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.032;
+  position: absolute;
+  top: 1822px;
+  left: 940px;
+  filter: hue-rotate(320deg);
+}
+
+#badtwoani3oppo img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.152;
+  position: absolute;
+  top: 1822px;
+  left: 1137px;
+  filter: hue-rotate(320deg);
+}
+
+#badtwoani4oppo img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.419;
+  position: absolute;
+  top: 1822px;
+  left: 1335px;
+  filter: hue-rotate(320deg);
+}
+
+
+/* BAD THREE */
+#badthreeani2 img {
+  width: 254px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.028;
+  position: absolute;
+  top: 2104px;
+  left: 518px;
+  filter: hue-rotate(320deg);
+}
+
+#badthreeani3 img {
+  width: 254px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.086;
+  position: absolute;
+  top: 2104px;
+  left: 320px;
+  filter: hue-rotate(320deg);
+}
+
+#badthreeani4 img {
+  width: 254px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.336;
+  position: absolute;
+  top: 2104px;
+  left: 122px;
+  filter: hue-rotate(320deg);
+}
+
+#badthreeani2oppo img {
+  width: 254px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.028;
+  position: absolute;
+  top: 2104px;
+  left: 912px;
+  filter: hue-rotate(320deg);
+}
+
+#badthreeani3oppo img {
+  width: 254px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.086;
+  position: absolute;
+  top: 2104px;
+  left: 1109px;
+  filter: hue-rotate(320deg);
+}
+
+#badthreeani4oppo img {
+  width: 254px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.336;
+  position: absolute;
+  top: 2104px;
+  left: 1307px;
+  filter: hue-rotate(320deg);
+}
+
+
+/* BAD FOUR */
+#badfourani2 img {
+  width: 198px;
+  height: 247px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.024;
+  position: absolute;
+  top: 2330px;
+  left: 542px;
+  filter: hue-rotate(320deg);
+}
+
+#badfourani3 img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.072;
+  position: absolute;
+  top: 2330px;
+  left: 348px;
+  filter: hue-rotate(320deg);
+}
+
+#badfourani4 img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.253;
+  position: absolute;
+  top: 2330px;
+  left: 150px;
+  filter: hue-rotate(320deg);
+}
+
+#badfourani2oppo img {
+  width: 198px;
+  height: 251px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.024;
+  position: absolute;
+  top: 2330px;
+  left: 940px;
+  filter: hue-rotate(320deg);
+}
+
+#badfourani3oppo img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.072;
+  position: absolute;
+  top: 2330px;
+  left: 1136px;
+  filter: hue-rotate(320deg);
+}
+
+#badfourani4oppo img {
+  width: 198px;
+  height: 254px;
+  top: 0px;
+  /* transform: rotate(90deg); */
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.253;
+  position: absolute;
+  top: 2330px;
+  left: 1334px;
+  filter: hue-rotate(320deg);
+}
+
+/* BAD FIVE */
+#badfiveani2 img {
+  width: 225px;
+  height: 195px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.018;
+  position: absolute;
+  top: 2592px;
+  left: 531px;
+  filter: hue-rotate(320deg);
+}
+
+#badfiveani3 img {
+  width: 225px;
+  height: 195px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.062;
+  position: absolute;
+  top: 2592px;
+  left: 336px;
+  filter: hue-rotate(320deg);
+}
+
+#badfiveani4 img {
+  width: 225px;
+  height: 201px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.17;
+  position: absolute;
+  top: 2592px;
+  left: 138px;
+  filter: hue-rotate(320deg);
+}
+
+#badfiveani2oppo img {
+  width: 225px;
+  height: 195px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.018;
+  position: absolute;
+  top: 2592px;
+  left: 925px;
+  filter: hue-rotate(320deg);
+}
+
+#badfiveani3oppo img {
+  width: 225px;
+  height: 199px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.062;
+  position: absolute;
+  top: 2592px;
+  left: 1121px;
+  filter: hue-rotate(320deg);
+}
+
+#badfiveani4oppo img {
+  width: 225px;
+  height: 201px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.17;
+  position: absolute;
+  top: 2592px;
+  left: 1320px;
+  filter: hue-rotate(320deg);
+}
+
+
+
+/* BAD SIX */
+#badsixani2 img {
+  width: 250px;
+  height: 195px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.010;
+  position: absolute;
+  top: 2827px;
+  left: 518px;
+  filter: hue-rotate(320deg);
+}
+
+#badsixani3 img {
+  width: 250px;
+  height: 195px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.052;
+  position: absolute;
+  top: 2827px;
+  left: 323px;
+  filter: hue-rotate(320deg);
+}
+
+#badsixani4 img {
+  width: 250px;
+  height: 201px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.087;
+  position: absolute;
+  top: 2827px;
+  left: 125px;
+  filter: hue-rotate(320deg);
+}
+
+#badsixani2oppo img {
+  width: 250px;
+  height: 195px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.010;
+  position: absolute;
+  top: 2827px;
+  left: 912px;
+  filter: hue-rotate(320deg);
+}
+
+#badsixani3oppo img {
+  width: 250px;
+  height: 198px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.052;
+  position: absolute;
+  top: 2827px;
+  left: 1108px;
+  filter: hue-rotate(320deg);
+}
+
+#badsixani4oppo img {
+  width: 250px;
+  height: 201px;
+  top: 0px;
+  transform: rotate(90deg);
+  align-content: center;
+  margin-bottom: 45px;
+  opacity: 0.087;
+  position: absolute;
+  top: 2827px;
+  left: 1307px;
+  filter: hue-rotate(320deg);
+}
+
+
+
+.block {
+  width: 31.33%;
+  margin: 1%;
+  float: left;
+}
+
+.revealOnScroll {
+  opacity: 0;
+}
