@@ -1,0 +1,218 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: monospace, sans-serif;
+  font-family: 'Alfa Slab One';
+}
+
+.contenedor {
+  padding: 20px;
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 380px;
+  left: 1050px;
+  z-index: -1;
+}
+
+.search-box{
+  /* z-index: 1; */
+  padding: 20px;
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 440px;
+  left: 1050px;
+  /* border: solid black 2px; */
+  /* object-position: center; */
+}
+
+#boton {
+  animation: appear 2s steps(40, end);
+-webkit-animation-delay: 5.5s;
+animation-delay: 5.5s;
+top: 350px;
+left: 800px;
+position: absolute;
+}
+
+@keyframes appear {
+  from: {
+    opacity: 0;
+  }
+
+  to: {
+    opacity: 1;
+  }
+}
+
+#circle{
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation:
+  ookii 10s ease-in, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes ookii {
+  from: {
+    transform: scale(5px);
+  }
+
+  to: {
+    transform: scale(1000px);
+  }
+}
+
+/* label{font-family:arial; font-size:.8em;} */
+textarea{
+  border:none;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-family:arial;
+  font-size:18px;
+  width: 625px;
+  resize: none;
+  /* position: absolute; */
+  z-index: 2;
+}
+
+/* input:focus{outline:none;} */
+
+.sample {
+  font-family: arial;
+  font-size: 12pt;
+  animation:
+  oblivion 60s steps(40, end),
+}
+
+.sample p:nth-child(1) {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.sample p:nth-child(2)
+{
+  white-space:nowrap;
+  overflow:hidden;
+  border-right: .15em solid black;
+  opacity:0;
+  margin: 0 auto;
+  -webkit-animation: typing2 3.5s steps(40, end);
+  animation: typing2 3.5s steps(40, end);
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.sample p:nth-child(3)
+{
+  white-space:nowrap;
+  overflow:hidden;
+  border-right: .15em solid black;
+  opacity:0;
+  margin: 0 auto;
+  -webkit-animation: typing2 3.5s steps(40, end);
+  animation: typing2 3.5s steps(40, end);
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.sample p:nth-child(4)
+{
+  white-space:nowrap;
+  overflow:hidden;
+  border-right: .15em solid black;
+  opacity:0;
+  margin: 0 auto;
+  -webkit-animation: typing2 3.5s steps(40, end);
+  animation: typing2 3.5s steps(40, end);
+  -webkit-animation-delay: 10.5s;
+  animation-delay: 10.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.sample p:nth-child(5)
+{
+  white-space:nowrap;
+  overflow:hidden;
+  border-right: .15em solid black;
+  opacity:0;
+  margin: 0 auto;
+  -webkit-animation: typing2 3.5s steps(40, end);
+  animation: typing2 3.5s steps(40, end);
+  -webkit-animation-delay: 14s;
+  animation-delay: 14s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.sample p:nth-child(6)
+{
+  white-space:nowrap;
+  overflow:hidden;
+  border-right: .15em solid black;
+  opacity:0;
+  margin: 0 auto;
+  -webkit-animation: typing2 3.5s steps(40, end);
+  animation: typing2 3.5s steps(40, end);
+  -webkit-animation-delay: 17.5s;
+  animation-delay: 17.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+{white-space:
+letter-spacing: .15em; /* Adjust as needed */}
+
+@keyframes oblivion {
+  from { font-size: 12pt;}
+  to { font-size: 4pt;}
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+  from { font-size: 12pt;}
+  to { font-size: 4pt;}
+}
+
+@keyframes typing2{
+0%{width: 0;}
+from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+from { width: 0 }
+to { width: 100% }
+from { font-size: 12pt;}
+to { font-size: 4pt;}
+}
+
+@-webkit-keyframes typing2{
+0%{width: 0;}
+from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+from { width: 0 }
+to { width: 100% }
+}
