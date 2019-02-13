@@ -1,0 +1,56 @@
+/* body {
+  max-width: 100vw;
+  max-height: 100vh;
+} */
+
+.container {
+	width: 100%;
+}
+
+.border_red {
+  background-color: red;
+}
+
+.border_blue {
+  background-color: blue;
+}
+
+.relative1 {
+  position: relative;
+  width: 10px;
+  height: 30px;
+  top: 0px;
+  left: 70px;
+}
+
+.relative2 {
+  position: relative;
+  width: 10px;
+  height: 30px;
+  top: 90px;
+  left: 30px;
+}
+
+.relative3 {
+  position: relative;
+  width: 10px;
+  height: 30px;
+  top: 0px;
+  left: 50px;
+}
+
+.absolute1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 60px;
+  left: 100px;
+}
+
+.absolute2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 5px;
+  left: 0px;
+}

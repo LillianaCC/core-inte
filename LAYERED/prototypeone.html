@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>draft</title>
+    <link rel="stylesheet" href="etooo.css">
+    <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div id="circle"></div>
+
+    <div class="contenedor">
+      <center>
+      <div id="titulo"><h3>HOW MANY CHARACTERS CAN YOU TYPE?</h3></div>
+      </center>
+    </div>
+      <div class="search-box">
+          <!-- <input type="text" placeholder="start." /> -->
+          <textarea name="Text1" cols="40" rows="5" placeholder="start." style="margin: 0px; height: 300px; width: 450px;"></textarea>
+      </div>
+
+<!-- SHOW THIS -->
+      <!-- <div class="sample">
+        <!-- <div class="diminutivo"> -->
+
+        <!-- <p>‘The best design is invisible‘ is the interaction design phrase of the moment.</p> -->
+        <!-- <p>The images above are from my ever-expanding collection</p> -->
+        <!-- <p>of quotes about how design and technology will ‘disappear‘, become ‘invisible‘ or how the ‘best interface is no interface‘.</p> -->
+        <!-- <p>Intentionally hiding the phenomena and materiality of interfaces, smoothing over the natural edges, seams and transitions that</p> -->
+        <!-- <p>constitute all technical systems, entails a loss of understanding and agency for both designers and users of computing. Lack of</p> -->
+        <!-- <p>understanding leads to uncertainty and folk-theories that hinder our ability to use technical systems, and clouds the critique of technological developments.</p> -->
+      <!-- </div> -->
+      <!-- </div> -->
+
+      <!-- <button type="reset">reset</button> -->
+      <!-- <input type="reset" value="reset"> -->
+      <!-- <button value="Refresh Page" onClick="window.location.reload()" input type="reset"> -->
+      <center><div id="boton"><input type="button" value="refresh" onClick="location.href=location.href"></div></center>
+
+      <script src="js/type.js"></script>
+  <script>
+  $ ("document").ready(function(){
+
+      $( "#circle" ).click(function(){
+        console.log("big");
+        $("#circle").css("transform","scale(2)" );
+        click++
+      });
+  });
+
+
+  </script>
+
+  </body>
+</html>

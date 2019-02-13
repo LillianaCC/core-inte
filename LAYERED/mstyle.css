@@ -1,0 +1,75 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* .flex-parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.page {
+	height: 100vh;
+	justify-content: space-between;
+	background-color: white;
+}
+
+.wmd-view-topscroll, .wmd-view {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 20px;
+    border: none 0px RED;
+}
+
+.wmd-view-topscroll { height: 50px; }
+.wmd-view { height: 50px;; }
+.scroll-div1 {
+    width: 1000px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.scroll-div2 {
+    width: 1000px;
+    height:20px;
+} */
+
+.search-box{
+  width: 650px;
+  height: 80px;
+  border: solid black 2px;
+  /* object-position: center; */
+}
+
+/* label{font-family:arial; font-size:.8em;} */
+input{
+  border:none;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-family:arial;
+  font-size:2em;
+  width: 625px;
+}
+
+input:focus{outline:none;}
+
+.moto {
+    /* padding-left: 110px; */
+    position: relative;
+    line-height: 86px;
+    font-family:arial;
+    /* padding-top: 40px; */
+    font-weight: 50;
+    font-size: 25px;
+    width: 900px;
+    z-index: 2;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
