@@ -46,134 +46,377 @@ function hslColor(h, s, l) {
 
 /* START WRITING YOUR CODE BELOW */
 
+var numKeyPressed = 0;
+
 // Keypress Smaller
-function keypressed(selector, newClass) {
+function keypressed(selector, scale) {
   var Element = document.querySelector(selector);
-    Element.classList.add(newClass);
+    Element.style.transform = `scale(${scale})`;
 }
 
+
 function myEventHandler(e) {
+  var scale = 1;
+  numKeyPressed++;
+  console.log(numKeyPressed);
   console.log (e);
+
+  if(e.keyCode == 8) {
+  console.log ("backspace");
+  keypressed("#circle", numKeyPressed);
+  }
+
+  if(e.keyCode == 9) {
+    console.log ("tab");
+    keypressed("#circle", numKeyPressed);
+  }
+
+  if(e.keyCode == 13) {
+  console.log ("enter");
+  keypressed("#circle", numKeyPressed);
+  }
+
+  if(e.keyCode == 16) {
+    console.log ("shift");
+    keypressed("#circle", numKeyPressed);
+  }
+
+  if(e.keyCode == 17) {
+  console.log ("ctrl");
+  keypressed("#circle", numKeyPressed);
+  }
+
+  if(e.keyCode == 18) {
+    console.log ("alt");
+    keypressed("#circle", numKeyPressed);
+  }
+
+  if(e.keyCode == 19) {
+  console.log ("pause");
+  keypressed("#circle", numKeyPressed);
+  }
+
+  if(e.keyCode == 20) {
+    console.log ("capslock");
+    keypressed("#circle", numKeyPressed);
+  }
+
+  if(e.keyCode == 27) {
+  console.log ("escape");
+  keypressed("#circle", numKeyPressed);
+}
+
+if(e.keyCode == 33) {
+console.log ("pageup");
+keypressed("#circle", numKeyPressed);
+}
+
+  if(e.keyCode == 34) {
+  console.log ("pagedown");
+  keypressed("#circle", numKeyPressed);
+}
+
+  if(e.keyCode == 35) {
+  console.log ("end");
+  keypressed("#circle", numKeyPressed);
+  }
+
+    if(e.keyCode == 36) {
+    console.log ("home");
+    keypressed("#circle", numKeyPressed);
+}
+
+  if(e.keyCode == 37) {
+  console.log ("leftarrow");
+  keypressed("#circle", numKeyPressed);
+  }
+
+    if(e.keyCode == 38) {
+    console.log ("uparrow");
+    keypressed("#circle", numKeyPressed);
+  }
+
+    if(e.keyCode == 39) {
+    console.log ("rightarrow");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 40) {
+    console.log ("downarrow");
+    keypressed("#circle", numKeyPressed);
+  }
+
+    if(e.keyCode == 45) {
+    console.log ("insert");
+    keypressed("#circle", numKeyPressed);
+  }
+
+    if(e.keyCode == 46) {
+    console.log ("delete");
+    keypressed("#circle", numKeyPressed);
+  }
+
+    if(e.keyCode == 48) {
+    console.log ("0");
+    keypressed("#circle", numKeyPressed);
+  }
+
+    if(e.keyCode == 49) {
+      console.log ("1");
+      keypressed("#circle", numKeyPressed);
+    }
 
     if(e.keyCode == 50) {
     console.log ("2");
-    keypressed("#circle", "g2");
+    keypressed("#circle", numKeyPressed);
+    // document.body.append
     }
 
     if(e.keyCode == 51) {
     console.log ("3");
-    keypressed(".g2");
+    keypressed("#circle", numKeyPressed);
    }
 
    if(e.keyCode == 52) {
     console.log ("4");
-    keypressed(".g3");
+    keypressed("#circle", numKeyPressed);
    }
 
    if(e.keyCode == 53) {
     console.log ("5");
-    keypressed(".g4");
+    keypressed("#circle", numKeyPressed);
    }
 
    if(e.keyCode == 54) {
     console.log ("6");
-    keypressed(".g5");
+    keypressed("#circle", numKeyPressed);
    }
 
    if(e.keyCode == 55) {
     console.log ("7");
-    keypressed(".g6");
+    keypressed("#circle", numKeyPressed);
     }
 
-    if(e.keyCode == 119) {
-    console.log ("w");
-    keypressed(".y1");
-    }
+    if(e.keyCode == 56) {
+     console.log ("8");
+     keypressed("#circle", numKeyPressed);
+     }
 
-    if(e.keyCode == 101) {
-    console.log ("e");
-    keypressed(".y2");
-   }
+     if(e.keyCode == 57) {
+      console.log ("9");
+      keypressed("#circle", numKeyPressed);
+      }
 
-   if(e.keyCode == 114) {
-    console.log ("r");
-    keypressed(".y3");
-   }
+      if(e.keyCode == 65) {
+       console.log ("a");
+       keypressed("#circle", numKeyPressed);
+       }
 
-   if(e.keyCode == 116) {
-    console.log ("t");
-    keypressed(".y4");
-   }
-
-   if(e.keyCode == 121) {
-    console.log ("y");
-    keypressed(".y5");
-   }
-
-   if(e.keyCode == 117) {
-    console.log ("u");
-    keypressed(".y6");
-    }
-
-   if(e.keyCode == 115) {
-    console.log ("s");
-    keypressed(".r1");
-   }
-
-   if(e.keyCode == 100) {
-    console.log ("d");
-    keypressed(".r2");
-   }
-
-   if(e.keyCode == 102) {
-    console.log ("f");
-    keypressed(".r3");
-   }
-
-   if(e.keyCode == 103) {
-    console.log ("g");
-    keypressed(".r4");
-   }
-
-   if(e.keyCode == 104) {
-    console.log ("h");
-    keypressed(".r5");
-   }
-
-   if(e.keyCode == 106) {
-    console.log ("j");
-    keypressed(".r6");
-    }
-
-    if(e.keyCode == 120) {
-    console.log ("x");
-    keypressed(".b1");
-   }
-
-   if(e.keyCode == 99) {
-    console.log ("c");
-    keypressed(".b2");
-   }
-
-   if(e.keyCode == 118) {
-    console.log ("v");
-    keypressed(".b3");
-   }
-
-   if(e.keyCode == 98) {
+    if(e.keyCode == 66) {
     console.log ("b");
-    keypressed(".b4");
-   }
+    keypressed("#circle", numKeyPressed);
+    }
 
-   if(e.keyCode == 110) {
+    if(e.keyCode == 67) {
+    console.log ("c");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 68) {
+    console.log ("d");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 69) {
+    console.log ("e");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 70) {
+    console.log ("f");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 71) {
+    console.log ("g");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 72) {
+    console.log ("h");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 73) {
+    console.log ("i");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 74) {
+    console.log ("j");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 75) {
+    console.log ("k");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 76) {
+    console.log ("l");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 77) {
+    console.log ("m");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 78) {
     console.log ("n");
-    keypressed(".b5");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 79) {
+    console.log ("o");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 80) {
+    console.log ("p");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 81) {
+    console.log ("q");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 82) {
+    console.log ("r");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 83) {
+    console.log ("s");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 84) {
+    console.log ("t");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 85) {
+    console.log ("u");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 86) {
+    console.log ("v");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 87) {
+    console.log ("w");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 88) {
+    console.log ("x");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 89) {
+    console.log ("y");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 90) {
+    console.log ("z");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 106) {
+    console.log ("multiply");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 107) {
+    console.log ("add");
+    keypressed("#circle", numKeyPressed);
     }
 
     if(e.keyCode == 109) {
-    console.log ("m");
-    keypressed(".b6");
+    console.log ("subtract");
+    keypressed("#circle", numKeyPressed);
     }
+
+    if(e.keyCode == 110) {
+    console.log ("decimalpoint");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 111) {
+    console.log ("divide");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 186) {
+    console.log ("semicolon");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 187) {
+    console.log ("equalsign");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 188) {
+    console.log ("comma");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 189) {
+    console.log ("dash");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 190) {
+    console.log ("period");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 191) {
+    console.log ("forwardslash");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 192) {
+    console.log ("graveaccent");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 219) {
+    console.log ("openbracket");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 220) {
+    console.log ("backslash");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 221) {
+    console.log ("closebracket");
+    keypressed("#circle", numKeyPressed);
+    }
+
+    if(e.keyCode == 222) {
+    console.log ("singlequote");
+    keypressed("#circle", numKeyPressed);
+    }
+
 }
 
 window.addEventListener("keypress", myEventHandler, false);
@@ -187,7 +430,7 @@ function clickspin() {
   wheel.style.transform = "scale(0.65) rotate("+ degrees + "deg)";
 }
 
-var spinbutton = document.querySelector(".spin")
+var spinbutton = document.querySelector("#circle")
 
 spinbutton.addEventListener("click", clickspin, false);
 
@@ -199,6 +442,8 @@ function clickstick() {
   stick.style.transform = "scale(0.15) rotate("+ degrees + "deg)";
 }
 
-var spinbutton = document.querySelector(".spin")
+var spinbutton = document.querySelector("#circle")
 
 spinbutton.addEventListener("click", clickstick, false);
+
+// ref https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes

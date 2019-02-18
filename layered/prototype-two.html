@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>draft</title>
-    <link rel="stylesheet" href="etooo.css">
+    <link rel="stylesheet" href="etwooo.css">
     <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    <!-- <script src="./js/type.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   </head>
   <body>
 
     <div id="circle"></div>
+
+    <!-- circle fills screen at least at scale(714)
+        the is a significant amount of text at 450 characters. change font size-->
 
     <div class="contenedor">
       <center>
@@ -49,7 +53,71 @@
         $("#circle").css("transform","scale(2)" );
         click++
       });
+
+      // document.getElementById("#circle").addEventListener("keypress", myFunction);
+
+// function myFunction() {
+//   document.getElementById("#circle").style.backgroundColor = "red";
+// }
+
+function myFunction() {
+  var x = document.getElementById("circle");
+  if (x.style.transform === 'scale(714)') {
+    $("#boton").style.visibility = 'visible';
+  } else {
+    $("#boton").style.visibility = 'hidden';
+  }
+};
+
+
+
+
+var min=8;
+var max=18;
+
+function checkLength(){
+    var textbox = document.getElementsByTagName(".searchbox");
+    for(i=0;i<p.length;i++) {
+    if(textbox.value.length <= 10 && textbox.value.length >= 5){
+       p[i].style.fontSize = min+"px"
+
+    }
+    else{
+
+           p[i].style.fontSize = max+"px"
+
+       }
+}
+};
+// function increaseFontSize() {
+//
+//    var p = document.getElementsByTagName('td');
+//    for(i=0;i<p.length;i++) {
+//
+//        p[i].style.fontSize = max+"px"
+//
+//    }
+// }
+
+// function decreaseFontSize() {
+//
+//    var p = document.getElementsByTagName('.search-box');
+//    for(i=0;i<p.length;i++) {
+//       p[i].style.fontSize = min+"px"
+// 
+//    }
+// }
+
+
+  // if $("#circle").css("transform","scale(714)" ) {
+  //   $("#boton").style.display = "none";
+  // } else {
+  //   $("#boton").style.display = "block";
+  // }
+
   });
+
+  // add if property for changing type size after a certain amt of characters
 
 
   </script>
