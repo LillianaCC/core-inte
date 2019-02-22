@@ -29,24 +29,17 @@ body {
   /* object-position: center; */
 }
 
+textarea {
+   font-family: inherit;
+   font-size: inherit;
+}
+
 #boton {
-  animation: appear 2s steps(40, end);
--webkit-animation-delay: 5.5s;
-animation-delay: 5.5s;
 top: 350px;
 left: 800px;
 position: absolute;
-display: hide;
-}
-
-@keyframes appear {
-  from: {
-    opacity: 0;
-  }
-
-  to: {
-    opacity: 1;
-  }
+/* display: none; */
+z-index: 3
 }
 
 #circle{
@@ -61,7 +54,7 @@ display: hide;
   ookii 10s ease-in, infinite;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  z-index: 2; 
+  z-index: 2;
 }
 
 @keyframes ookii {

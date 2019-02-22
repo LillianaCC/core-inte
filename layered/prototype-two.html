@@ -52,7 +52,7 @@
         console.log("big");
         $("#circle").css("transform","scale(2)" );
         click++
-      }); 
+      });
 
       // document.getElementById("#circle").addEventListener("keypress", myFunction);
 
@@ -60,12 +60,24 @@
 //   document.getElementById("#circle").style.backgroundColor = "red";
 // }
 
-function myFunction() {
+// function myFunction() {
+//   var x = document.getElementById("circle");
+//   if (x.style.transform === 'scale(714)') {
+//     $("#boton").style.visibility = 'visible';
+//   } else {
+//     $("#boton").style.visibility = 'hidden';
+//   }
+// };
+
+document.getElementById("circle").onshow = function() {myFunction()};
+
+function myFunction(scale) {
   var x = document.getElementById("circle");
-  if (x.style.transform === 'scale(714)') {
-    $("#boton").style.visibility = 'visible';
+  $("#circle").style.transform = `scale(${scale})`;
+  if (x.style.transform = `scale(714)`) {
+    $("#boton").show;
   } else {
-    $("#boton").style.visibility = 'hidden';
+    $("#boton").hide;
   }
 };
 
@@ -76,7 +88,7 @@ var min=8;
 var max=18;
 
 function checkLength(){
-    var textbox = document.getElementsByTagName(".searchbox");
+    var textbox = document.getElementsByTagName(".search-box");
     for(i=0;i<p.length;i++) {
     if(textbox.value.length <= 10 && textbox.value.length >= 5){
        p[i].style.fontSize = min+"px"
