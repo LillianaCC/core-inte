@@ -169,6 +169,7 @@
 //
 //
 
+let container;
 let num = 5;
 let circle = [];
 let square = [];
@@ -183,6 +184,76 @@ let state = false;
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
+  container = new Container();
+  // Add an initial set of boids into the system
+  for (let i = 0; i < 100; i++) {
+    let o = new Object(width / 2,height / 2);
+    container.addObject(b);
+  }
+}
+
+  // // Create a circle using vectors pointing from center
+  // for (let angle = 0; angle < 360; angle += 9) {
+  //   // Note we are not starting from 0 in order to match the
+  //   // path of a circle.
+  //   let v = p5.Vector.fromAngle(radians(angle - 135));
+  //   v.mult(100);
+  //   circle.push(v);
+  //   // Let's fill out morph ArrayList with blank PVectors while we are at it
+  //   morph.push(createVector());
+  // }
+  //
+  // // A square is a bunch of vertices along straight lines
+  // // Top of square
+  // for (let x = -50; x < 50; x += 10) {
+  //   square.push(createVector(x, -50));
+  // }
+  // // Right side
+  // for (let y = -50; y < 50; y += 10) {
+  //   square.push(createVector(50, y));
+  // }
+  // // Bottom
+  // for (let x = 50; x > -50; x -= 10) {
+  //   square.push(createVector(x, 50));
+  // }
+  // // Left side
+  // for (let y = 50; y > -50; y -= 10) {
+  //   square.push(createVector(-50, y));
+  // }
+
+function draw() {
+  background(51);
+  container.run();
+}
+
+// Add a new boid into the System
+function mousePressed() {
+  container.addObject(new Container(mouseX, mouseY));
+}
+
+// The Nature of Code
+// Daniel Shiffman
+// http://natureofcode.com
+
+// Flock object
+// Does very little, simply manages the array of all the boids
+
+function Container() {
+  // An array for all the boids
+  this.objects = []; // Initialize the array
+}
+
+Container.prototype.run = function() {
+  for (let i = 0; i < this.objects.length; i++) {
+    this.objects[i].run(this.objects);  // Passing the entire list of boids to each boid individually
+  }
+}
+
+Container.prototype.addObject = function(b) {
+  this.objects.push(b);
+}
+
+function Object(x, y) {
   // Create a circle using vectors pointing from center
   for (let angle = 0; angle < 360; angle += 9) {
     // Note we are not starting from 0 in order to match the
@@ -254,4 +325,11 @@ function draw() {
     vertex(v.x, v.y);
   });
   endShape(CLOSE);
+}
+
+Object.prototype.borders = function() {
+  if (this.position.x < -this.r)  this.position.x = width + this.r;
+  if (this.position.y < -this.r)  this.position.y = height + this.r;
+  if (this.position.x > width + this.r) this.position.x = -this.r;
+  if (this.position.y > height + this.r) this.position.y = -this.r;
 }

@@ -2,13 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- <meta http-equiv="refresh" content="2" > -->
     <title>prototype 3</title>
+    <style>body {cursor: pointer;}</style>
   </head>
   <body style="margin: 0; height: 100%; overflow: hidden">
 
     <!-- <h1>P5js</h1> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
-    <script src="threescript.js"></script>
+    <script src="colorthreescript.js"></script>
+
+    <!-- <script>
+     var time = new Date().getTime();
+     $(html.body).bind("mousemove keypress", function(e) {
+         time = new Date().getTime();
+     });
+
+     function refresh() {
+         if(new Date().getTime() - time >= 60000)
+             window.location.reload(true);
+         else
+             setTimeout(refresh, 10000);
+     }
+
+     setTimeout(refresh, 10000);
+</script> -->
 
   </body>
 </html>
