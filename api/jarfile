@@ -1,0 +1,4 @@
+#!/bin/bash
+
+java -jar home/Users/lillianacheco/Documents/core-inte/api/start.jar
+

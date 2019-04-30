@@ -22,6 +22,8 @@ var r, g, b, a;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noLoop();
+  k = random(width / 100);
+  z = random(width / 100);
   // var tris = [];
   // colors = [color('#ff0000'), color('#ee863a'), color('#b4280c'), color('#ffab03'), color('#ffd503'), color('#eab22f')];
   // frameRate(2);
@@ -40,8 +42,8 @@ function draw() {
   g = random(255);
   b = random(255);
   a = random(255);
-  k = random(width / 100);
-  z = random(width / 100);
+  // k = random(width / 100);
+  // z = random(width / 100);
 
   let x1 = random(width);
   let x2 = random(width);
@@ -87,7 +89,7 @@ function draw() {
   stroke(127, 63, 120);
   // triangle(x1, y1, x2, y2, x3, y3);
   triangle(z+x1, y1, x2, y2, x3, y3);
-  triangle(k+x1, y1, x2, y2, x3, y3);
+  // triangle(k+x1, y1, x2, y2, x3, y3);
 }
 
 // translate(x1, y1 / 2 - dim / 2, x2, y2 / 2 - dim / 2, x3, y3 / 2 - dim / 2);

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-style: normal, Helvetica, 28pt;
+  cursor: default;
+  background-color: white;
+  margin-left: 10px;
+  float: left;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+}
+
+/* Styles for all media */
+#print_helper {
+  display: none;
+}
+
+#print_helper {
+    display: block;
+    overflow: visible;
+    font-family: Menlo, "Deja Vu Sans Mono", "Bitstream Vera Sans Mono", Monaco, monospace;
+    white-space: pre;
+    white-space: pre-wrap;
+    float: left;
+    overflow-wrap: break-word;
+}
+#the_textarea {
+  display: none;
+}

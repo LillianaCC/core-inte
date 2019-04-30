@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+            <!-- idea: make title/lyrics mode options! ?? or just let the api select everything -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>speak</title>
+    <link rel="stylesheet" href="voicestyle.css">
+  </head>
+  <body>
+    <center>
+    <!-- <button id="form__submit" class="button">Get Info</button> -->
+  </center>
+
+  <textarea name="textarea" wrap="wrap" id="the_textarea">
+</textarea>
+<div id="print_helper"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+  <script src="libraries/p5.sound.js"></script>
+  <script src="libraries/p5.speech.js"></script>
+  <!-- <script src="square.js"></script> -->
+  <!-- <script src="word.js"></script> -->
+  <!-- <script src="speak.js"></script> -->
+  <script src="print.js"></script>
+  <!-- <script src="music.js"></script> -->
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(function($){
+  function copy_to_print_helper(){
+    $('#print_helper').text($('#the_textarea').val());
+  }
+  $('#the_textarea').bind('keydown keyup keypress cut copy past blur change', function(){
+    copy_to_print_helper(); // consider debouncing this to avoid slowdowns!
+  });
+  copy_to_print_helper(); // on initial page load
+});
+</script>
+
+
+<!-- ref  https://github.com/spotify/echoprint-codegen -->
+  </body>
+</html>
