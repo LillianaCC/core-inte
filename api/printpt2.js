@@ -9,12 +9,12 @@ function setup(){
 	// boolean to set whether the speech recognition engine will
 	// give results continuously (true) or just once (false).
 	// Default is false.
-	foo.continuous = true;
+	foo.continuous = false;
 
 	// boolean to set whether the speech recognition engine will give
 	// faster, partial results (true) or wait for the speaker to pause (false).
 	// Default is false
-	foo.interimResults = true;
+	foo.interimResults = false;
 
 	// function sets callback to fire when speech is recognized and a result has been reported.
 	foo.onResult = showResult;
@@ -42,12 +42,12 @@ function showResult(){
 
 	// resultConfidence stores the confidence level of the speech synthesizer that resultString is what was actually spoken by the user.
 	// gives a float value from 0.0 to 1.0
-	// console.log(foo.resultConfidence);
-	// text("I am this much confident: " + foo.resultConfidence, width/5, height-height/3);
+	console.log(foo.resultConfidence);
+	text("I am this much confident: " + foo.resultConfidence, width/5, height-height/3);
 
 	// the resultString contains the string of the most recently detected speech
 	console.log(foo.resultString);
-	text(foo.resultString, random(width), random(height));
+	text("that you said: " + foo.resultString, width/5, height/2);
 
 
 }

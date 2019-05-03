@@ -8,12 +8,59 @@
   </head>
   <body>
     <center>
-    <!-- <button id="form__submit" class="button">Get Info</button> -->
+    <!-- <form id="form__submit" class="data-response">
+      <button class="submit">Get Info</button></form> -->
   </center>
 
-  <textarea name="textarea" wrap="wrap" id="the_textarea">
-</textarea>
-<div id="print_helper"></div>
+  <!-- <form id="artist__form" class="pure-form">
+    <select name="arist__select" id="artist__select">
+      <option value="">--Select Artist--</option>
+      <option value="32569774">Khalid</option>
+      <option value="33491439">Halsey</option>
+    </select>
+    <button class="pure-button pure-primary">Submit</button>
+  </form> -->
+
+  <form id="artist__form" class="pure-form">
+    <input type="text" placeholder="search" id="search">
+    <button class="pure-button pure-primary">Submit</button>
+  </form>
+
+<div class="result__list">
+<div class="result one">
+  <div class="songname1">
+  <div class="artistname1"></div>
+  <div class="albumname1"></div>
+</div>
+
+<div class="result two">
+  <div class="songname2"></div>
+  <div class="artistname2"></div>
+  <div class="albumname2"></div>
+</div>
+
+<div class="result three">
+  <div class="songname3"></div>
+  <div class="artistname3"></div>
+  <div class="albumname3"></div>
+</div>
+
+<div class="result four">
+  <div class="songname4"></div>
+  <div class="artistname4"></div>
+  <div class="albumname4"></div>
+</div>
+
+<div class="result five">
+  <div class="songname5"></div>
+  <div class="artistname5"></div>
+  <div class="albumname5"></div>
+</div>
+</div>
+</div>
+
+
+  <div id="lyrics__list"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
@@ -24,21 +71,14 @@
   <!-- <script src="square.js"></script> -->
   <!-- <script src="word.js"></script> -->
   <!-- <script src="speak.js"></script> -->
-  <script src="print.js"></script>
+  <!-- <script src="print.js"></script> -->
+  <script src="second-print.js"></script>
+  <!-- <script src="fetch.js"></script> -->
+  <!-- <script src="second-fetch.js"></script> -->
+  <!-- <script src="third-fetch.js"></script> -->
   <!-- <script src="music.js"></script> -->
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script type="text/javascript">
-jQuery(function($){
-  function copy_to_print_helper(){
-    $('#print_helper').text($('#the_textarea').val());
-  }
-  $('#the_textarea').bind('keydown keyup keypress cut copy past blur change', function(){
-    copy_to_print_helper(); // consider debouncing this to avoid slowdowns!
-  });
-  copy_to_print_helper(); // on initial page load
-});
-</script>
 
 
 <!-- ref  https://github.com/spotify/echoprint-codegen -->

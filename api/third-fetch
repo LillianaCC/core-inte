@@ -1,0 +1,62 @@
+window.addEventListener('load', ()=> {
+    // All Values Go Right Under Here!
+    const APIKEY='8ad9d3229a52a5d4132e5080da3fcde6';
+    proxy = 'https://cors-anywhere.herokuapp.com/',
+    userInput = document.querySelector('#search'),
+    dataWrapper1 = document.querySelector('.songname1'),
+    dataWrapper2 = document.querySelector('.albumname1'),
+    dataWrapper3 = document.querySelector('.artistname1'),
+
+    // dataWrapper20 = document.querySelector('.albumart'),
+
+    musixForm = document.querySelector('#artist__form');
+
+    //Begin findTrack!
+    let findTrack;
+    // let findArt;
+
+    //Begin Function!
+    function getMusixInfo(event) {
+        //Prevents auto-refresh of form...
+        event.preventDefault();
+
+        // This is the value from the api link
+        findTrack = userInput.value;
+
+        //Permissions stuff for the API!
+        let api = `${proxy}https://api.musixmatch.com/ws/1.1/track.search?q_track=${findTrack}&s_track_rating=desc&apikey=${APIKEY}`;
+        // &artist.album.get=${findArt}
+
+        // Begin fetching the info from the API!
+        fetch(api)
+        .then(response => {
+            return response.json();
+        }).then(data => {
+            console.log(data);
+
+            //This section tells what info to open up for the API!
+            //Remember, the names & numbers refer to their corresponding values across the document.
+            //
+            let tracklist = data.message.body.track_list;
+            let firsttrack = tracklist[0].track;
+
+            let firsttrackrating = firsttrack.track_rating;
+
+            // let albumlist = data.message.body.album_list;
+            // let firstalbum = albumlist[0].album;
+            //This section prints the information into the website!
+            //Remember, it must be defined with the variables from the top!
+            //Also, the firsttrack /is a random name/. track_name /name of folder provided in the console log(data) thing/
+            // First Search Query
+            dataWrapper1.innerHTML= " " + "1." + firsttrack.track_name;
+            dataWrapper2.innerHTML= " " + " " + firsttrack.album_name;
+            dataWrapper3.innerHTML= " " + " " + firsttrack.artist_name;
+
+            // dataWrapper20.innerHTML= " " + " " + firstalbum.
+
+        });
+
+    }
+
+    musixForm.addEventListener('submit', getMusixInfo);
+});
