@@ -37,12 +37,12 @@ let findTrack;
             return data.message.body.album_list;
          })
          .then(lyrics => {
-            // let lyricsList = '<ul>';
-            // for (let i = 0; i < lyrics.length; i++) {
-            //    lyricsList += `<li>${lyrics[i].lyrics.has_lyrics}</li>`;
-            // }
-            // lyricsList += '</ul>';
-            // lyricsListWrapper.innerHTML = lyricsList;
+            let lyricsList = '<ul>';
+            for (let i = 0; i < lyrics.length; i++) {
+               lyricsList += `<li>${lyrics[i].lyrics.has_lyrics}</li>`;
+            }
+            lyricsList += '</ul>';
+            lyricsListWrapper.innerHTML = lyricsList;
          })
          .catch(error => console.error(error));
    };

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-            <!-- idea: make title/lyrics mode options! ?? or just let the api select everything -->
+
+            <!-- add share button   ref: https://simplesharebuttons.com/html-share-buttons/ -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -21,12 +22,20 @@
     <button class="pure-button pure-primary">Submit</button>
   </form> -->
 
-  <form id="artist__form" class="pure-form">
+  <!-- <form id="artist__form" class="pure-form">
     <input type="text" placeholder="search" id="search">
-    <button class="pure-button pure-primary">Submit</button>
-  </form>
+    <button class="pure-button pure-primary">submit</button>
+  </form> -->
 
-<div class="result__list">
+  <div id="loading-outer">
+    <div id="loading-inner">
+        <!-- <img src="refresh.png" alt=""> -->
+    </div>
+</div>
+
+<div id="microphone"></div>
+
+<!-- <div class="result__list">
 <div class="result one">
   <div class="songname1">
   <div class="artistname1"></div>
@@ -57,10 +66,14 @@
   <div class="albumname5"></div>
 </div>
 </div>
-</div>
+</div> -->
 
 
-  <div id="lyrics__list"></div>
+  <div class="track__list">
+      <div class="songname1">
+      <div class="artistname1"></div>
+      <div class="albumname1"></div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
@@ -72,7 +85,9 @@
   <!-- <script src="word.js"></script> -->
   <!-- <script src="speak.js"></script> -->
   <!-- <script src="print.js"></script> -->
-  <script src="second-print.js"></script>
+  <!-- <script src="second-print.js"></script> -->
+  <!-- <script src="third-print.js"></script> -->
+  <script src="testprint.js"></script>
   <!-- <script src="fetch.js"></script> -->
   <!-- <script src="second-fetch.js"></script> -->
   <!-- <script src="third-fetch.js"></script> -->

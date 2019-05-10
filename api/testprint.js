@@ -113,14 +113,25 @@ function draw(){
         // * display "off" icon
         image(refresh, windowWidth / 2, 810, 50 , 50);
     }
-    // --------------------------
+
+    textSize(22);
+    fill(15,121,215);
+    noStroke();
+    textAlign(CENTER, CENTER);
+    text('Disclaimer: For your entertaiment, your voice is being recorded', windowWidth / 2, 870, 370, 280);
+    textSize(32);
+    fill(215,15,15);
+    noStroke();
+    textAlign(CENTER, CENTER);
+    text('would you like to say something?', windowWidth / 2, 60);
+
+
+    // -------------------------- TITLE IDEAS: i want to hear your voice//would you like to say something?
 }
 
-function Disclaimer() {
-
+function title() {
   // textSize(32);
-  // fill(0, 0, 0);
-  text('Disclaimer', windowWidth / 2, 60);
+
 
 }
 
@@ -208,46 +219,11 @@ function showResult(){
           // let trackList = '<ul>';
           // return data.message.body.track_list;
 					// console.log(trackList);
-
-
-					for (var i = 0; i < trackList.length; i++) {
-            let firsttrack = trackList[i].track_list;
-            let bounds;
-            noStroke();
-            noLoop();
-            // fill color
-            // SPLIT TEXT REF https://www.google.com/search?ei=hrnRXIP4C6iQ_QaL0YvwDw&q=how+to+make+a+single+p5js+text%28%29+function+print+a+string+in+different+lines&oq=how+to+make+a+single+p5js+text%28%29+function+print+a+string+in+different+lines&gs_l=psy-ab.3...5929.8196..9036...0.0..0.84.589.9......0....1..gws-wiz.......0i71j33i10.jTjcs7Uhm-g
-            fill(0, 102, 153);
-
-            var ypos = i * 20;
-
-
-            text(trackList[i].track.track_name, 32, ypos, 190, windowHeight);
-
-
-            // listening = !listening;
-            // if(listening) {
-            //   ypos = ypos + 20;
-            //   console.log(ypos);
-            //
-            // } else {
-            //   console.log("listening");
-            //
-            // }
-            // text(trackList[i].track.track_name, 32, ypos, 190, windowHeight);
-						// console.log('track name: ', trackList[i].track.track_name);
-            // console.log('artist name: ', trackList[i].track.artist_name);
-						// console.log('track rating: ', trackList[i].track.track_rating);
-						// console.log('album name: ', trackList[i].track.album_name);
-
-
-            // document.body.appendChild(dataWrapper1);
-            // document.body.appendChild(dataWrapper2);
-            // document.body.appendChild(dataWrapper3);
-            // trackList += `<li>${trackList[i].track.track_name}</li>`;
-            // trackList += `<li>${trackList[i].track.artist_name}</li>`;
-            // trackList += `<li>${trackList[i].track.album_name}</li>`;
-
+          for (var i = 0; i < trackList.length; i++) {
+						console.log('track name: ', trackList[i].track.track_name);
+            console.log('artist name: ', trackList[i].track.artist_name);
+						console.log('track rating: ', trackList[i].track.track_rating);
+						console.log('album name: ', trackList[i].track.album_name);
 					}
 
           // var print = document.createElement("div");
